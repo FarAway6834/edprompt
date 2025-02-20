@@ -1,6 +1,8 @@
 # edprompt
 python shell edit 🤣🤣🤣
 
+*`pip install edprompt`*
+
 # how 2 use?
 
 ```python
