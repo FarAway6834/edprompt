@@ -13,3 +13,6 @@ python shell edit 🤣🤣🤣
 save as : but_nobody.txt
 >>>
 ```
+
+# deps
+[funny](https://pypi.org/clro)
