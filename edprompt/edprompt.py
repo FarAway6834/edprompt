@@ -21,11 +21,9 @@ class edprompt:
 		write_the_text_file(input("save as : "), res)
 	
 	def __pos__(self):
-		global _
-		res = input("file name : ")
+		res = _
 		res = read_the_text_file(res)
 		print(res)
-		_ = res
 		return res
 
 __builtins__.y = edprompt()
