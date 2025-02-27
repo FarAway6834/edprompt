@@ -12,11 +12,18 @@ def wither(opener = _fical(open, mode = 'w')):
 	return with_deco
 
 write_the_text_file = wither()(lambda f, x : f.write(x))
+read_the_text_file = wither(open)(lambda f : f.read())
 
 class edprompt:
 	def __neg__(self):
 		res = _
 		print(res)
 		write_the_text_file(input("save as : "), res)
+ 
+ def __pos__(self):
+  ret = read_the_text_file(_)
+  print(ret)
+  _ = ret
+  return _
 
 __builtins__.y = edprompt()
