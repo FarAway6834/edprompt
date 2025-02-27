@@ -19,11 +19,11 @@ class edprompt:
 		res = _
 		print(res)
 		write_the_text_file(input("save as : "), res)
- 
- def __pos__(self):
-  ret = read_the_text_file(_)
-  print(ret)
-  _ = ret
-  return _
+	
+	def __pos__(self):
+		ret = read_the_text_file(_)
+		print(ret)
+		_ = ret
+		return _
 
 __builtins__.y = edprompt()
