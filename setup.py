@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='edprompt',
-    version='0.0.6',
+    version='0.0.7',
     description='python shell prompt cli editor joke saver prompt bloody hell lmao 🤣🤣🤣',
     author='du7ec',
     author_email='dutec6834@gmail.com',
