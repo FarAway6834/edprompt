@@ -27,5 +27,8 @@ class edprompt:
 		res = read_the_text_file(res)
 		print(res)
 		return res
+	
+	def __invert__(self):
+		__builtins__.encoding = _
 
 __builtins__.y = edprompt()
