@@ -23,7 +23,22 @@ buy me a beer
 'buy me a beer'
 >>> -y
 save as : dummy.txt
+>>> 
+>>> encoding
+'utf-8'
+>>> 
+>>> 'cp949'
+'cp949'
+>>> ~y
+>>> encoding
+'cp949'
 >>>
+>>> 'utf-8'
+'utf-8'
+>>> ~y
+>>> encoding
+'utf-8'
+>>> 
 ```
 
 # deps
