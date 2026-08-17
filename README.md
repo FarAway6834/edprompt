@@ -42,5 +42,5 @@ save as : dummy.txt
 ```
 
 # deps
-[funny](https://pypi.org/project/clro) ... [ghpage ver](https://pypi.org/project/clro)
+[funny](https://pypi.org/project/clro) ... [also ghpage ver](https://pypi.org/project/clro)
  
